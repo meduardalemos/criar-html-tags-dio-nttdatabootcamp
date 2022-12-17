@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo curso HTML Dio</title>
+</head>
+<body>
+
+    <!-- Enunciado do Desafio 
+
+        Utilizar todas as tags explicadas nas aulas: <h1> até <h6>, <p>, <mark>, <small>, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>;
+        Utilizar novas tags sugeridas: <font>, <del>, <p>, <abbr> - a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto.-->
+
+    <h1>Resumo Curso HTML Dio</h1>
+
+    <h2 id="indice">Índice</h2>
+    <ol>
+        <li><a href="#clienteServidor">Entendendo a comunicação cliente x servidor</a></li>
+        <li><a href="#entendendoHtml">Entendendo HTML na prática</a></li>
+        <li><a href="#tagFont">A tag &lt;font&gt;</a></li>
+        <li><a href="#tagDel">A tag &lt;del&gt;</a></li>
+        <li><a href="#tagAbbr">A tag &lt;abbr&gt;</a></li>
+    </ol>
+
+    <hr>
+
+    <h2 id="clienteServidor">Entendendo a comunicação cliente x servidor</h2>
+    <a href="#indice"><small>voltar ao índice</small></a>
+    <p>A comunicação entre cliente e servidor é um processo fundamental na informática que permite que os dois dispositivos troquem informações. O cliente é o dispositivo que envia uma solicitação para o servidor, que é o dispositivo responsável por processar essa solicitação e enviar uma resposta de volta para o cliente.</p>
+    <p>Para estabelecer a comunicação, o cliente envia uma solicitação para o servidor através de uma rede, geralmente a Internet. A solicitação é enviada através de um protocolo de rede, que é um conjunto de regras que governam como os dados são transmitidos na rede.</p>
+    <p>O servidor recebe a solicitação e processa a informação, geralmente realizando algum tipo de ação ou buscando dados em um banco de dados. Uma vez que a solicitação é processada, o servidor envia uma resposta de volta para o cliente através da mesma rede.</p>
+    <p>A comunicação entre cliente e servidor é crucial para a funcionalidade de muitos aplicativos e serviços online, como sites de comércio eletrônico, redes sociais e aplicativos de mensagens. <strong>É importante que essa comunicação seja segura e protegida para garantir a privacidade e segurança dos usuários.</strong></p>
+    
+    <h2 id="entendendoHtml">Entendendo HTML<sup>(<i>HyperText Markup Language</i>)</sup> na prática </h2>
+    <a href="#indice"><small>voltar ao índice</small></a>
+    <p>HTML (<i>HyperText Markup Language</i>) é uma linguagem de marcação de texto que é usada para estruturar e dar formato a conteúdo na World Wide Web. Ela é utilizada para criar páginas web e aplicações da web.</p>
+    <p>A HTML é composta por elementos que são usados para marcar diferentes partes do conteúdo de uma página da web. Cada elemento é identificado por uma tag, que é escrita entre colchetes angle. Por exemplo, o elemento para criar um parágrafo é representado pela tag <code>&lt;p&gt;</code>.</p>
+    <p>Para adicionar conteúdo a um elemento HTML, basta escrever o conteúdo entre as tags de abertura e fechamento do elemento. Por exemplo, para criar um parágrafo com o texto "Olá, mundo!", podemos escrever: <code>&lt;p&gt; Olá, Mundo! &lt;/p&gt</code> </p>
+    <p>Além de estruturar o conteúdo, a HTML também permite a adição de atributos aos elementos para fornecer informações adicionais ou definir comportamentos específicos. Por exemplo, a tag de imagem <code>&lt;img&gt;</code> pode ter um atributo "src" (source) para especificar o endereço da imagem a ser exibida. Exemplo: <code>&lt;img&gt; src="caminho/para/imagem.jpg" alt="Descrição da imagem" &lt;img&gt;</code> </p>
+    <p>Existem muitos outros elementos e atributos disponíveis na HTML, cada um com uma finalidade específica. <u>Aprender a usar a HTML é fundamental para criar páginas da web de maneira eficiente e de acordo com as boas práticas da web.</u></p>
+
+    <h2 id="tagFont">A tag <code>&lt;font&gt;</code></h2>
+    <a href="#indice"><small>voltar ao índice</small></a>
+    <p>A tag <code>&lt;font&gt;</code> é um elemento HTML que permite a alteração da fonte, cor e tamanho do texto. Ela é usada para dar estilo ao texto de uma página da web.</p>
+    <p>Para alterar a fonte, você pode usar o atributo "face" (nome da fonte). Para alterar a cor do texto, você pode usar o atributo "color" (cor). As cores podem ser especificadas em formato de código hexadecimal ou por nome. Para alterar o tamanho do texto, você pode usar o atributo "size" (tamanho). O tamanho pode ser especificado em unidades absolutas (em pixels) ou relativas (usando uma escala de 1 a 7, sendo 1 o menor e 7 o maior).</p>
+    <p>Exemplo: <code>&lt;font face="Arial" color="#ff0000" size="24"&gt;Exemplo de Texto&lt;/font&gt;</code> = <font face="Arial" color="#ff0000" size="4" >Exemplo de Texto</font> </p>
+    <p><mark>É importante lembrar que a tag <font> é considerada uma tag obsoleta pelo W3C (Consórcio World Wide Web) e não deve ser usada em novos desenvolvimentos. Em vez disso, é recomendado usar outras tags e estilos CSS (Cascading Style Sheets) para alterar a aparência do texto em uma página da web.</mark></p>
+    
+    <h2 id="tagDel">A tag <code>&lt;del&gt;</code></h2>
+    <a href="#indice"><small>voltar ao índice</small></a>
+    <p>A tag <code>&lt;del&gt;</code> é um elemento HTML que permite marcar um texto como riscado ou apagado. Ela é usada para indicar que o conteúdo foi excluído ou removido de uma página da web. Quando o navegador renderiza a página, o texto marcado com a tag <code>&lt;del&gt;</code> aparecerá com uma linha riscada ou apagada, dependendo do estilo do navegador.</p>
+    <p>Exemplo: <code>&lt;del&gt; Texto riscado &lt;/del&gt;</code> = <del>Texto riscado</del></p>
+    <p>Além da tag <code>&lt;del&gt;</code>, também é possível usar a tag <code>&lt;strike&gt;</code> para obter o mesmo efeito. <mark>No entanto, ambas as tags são consideradas obsoletas pelo W3C (Consórcio World Wide Web) e não devem ser usadas em novos desenvolvimentos. Em vez disso, é recomendado usar a tag <code>&lt;s&gt;</code> ou estilos CSS (Cascading Style Sheets) para obter o efeito de riscado ou apagado.</mark></p>
+
+    <h2 id="tagAbbr">A tag <code>&lt;abbr&gt;</code></h2>
+    <a href="#indice"><small>voltar ao índice</small></a>
+    <p>A tag <code>&lt;abbr&gt;</code> é um elemento HTML que permite que você especifique um abreviatura ou sigla para um termo. Quando você usa a tag <code>&lt;abbr&gt;</code>, pode fornecer ao usuário uma explicação da abreviatura ou sigla usando o atributo <code>title</code>. Isso permitirá que o navegador exiba a palavra "HTML" como uma abreviatura, e, quando o usuário passar o mouse sobre ela, exibirá a explicação completa da abreviatura em uma janela de ferramenta ou um pop-up.</p>
+    <p>Exemplo: <code>&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;</code> = <abbr title="HyperText Markup Language">HTML</abbr></p>
+
+</body>
+</html>
